@@ -14,3 +14,7 @@ module.exports =
         .pack()
         .pipe(fs.createWriteStream(output))
         .on 'finish', resolve
+
+  getPngStream: ->
+    @toPng()
+      .pack()
