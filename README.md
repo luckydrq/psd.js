@@ -4,6 +4,9 @@
 
 # This repo is a fork of [psd.js](https://github.com/meltingice/psd.js). I'd like to add some features that meet personal needs.Thanks you, [@meltingice](https://github.com/meltingice).
 
+# Change Log
+- add `layer.getPngStream`.
+
 A general purpose PSD parser written in Coffeescript. Based off of [PSD.rb](https://github.com/layervault/psd.rb). It allows you to work with a Photoshop document in a manageable tree structure and find out important data such as:
 
 * Document structure
